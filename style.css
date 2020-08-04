@@ -1,0 +1,115 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.carousel-container {
+  position: relative;
+  top: 100px;
+  width: 1000px;
+  margin: auto;
+  outline: 5px solid #000;
+  overflow: hidden;
+}
+
+.carousel-slide {
+  display: flex;
+  width: 1000px;
+  height: 300px;
+}
+
+.carousel-slide a {
+  position: relative;
+  display: flex;
+  text-decoration: none;
+  text-align: justify;
+  color: #fff;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 500;
+  font-size: 30px;
+}
+
+.carousel-slide img {
+  width: 1000px;
+}
+
+.carousel-slide span {
+  position: absolute;
+  max-width: 500px;
+  padding: 7px;
+  border-radius: 5px;
+  background-color: #6495ED;
+  font-family: inherit;
+}
+
+.img-text-one {
+  top: 50px;
+  left: 50px;
+}
+
+.img-text-two {
+  top: 180px;
+  left: 175px;
+}
+
+.img-text-three {
+  top: 80px;
+  right: 465px;
+}
+
+.prev {
+  position: absolute;
+  top: 130px;
+  left: 10px;
+  z-index: 10;
+  border: none;
+  opacity: 0.9;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  background-image: url('http://aymabeachresort.com/wp-content/plugins/photo-gallery/css/bwg-fonts/fonts/bwg-fonts-svg/angle-left-sm.svg');
+  background-size: 60%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.next {
+  position: absolute;
+  top: 130px;
+  right: 10px;
+  z-index: 10;
+  border: none;
+  opacity: 0.9;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  background-image: url('http://aymabeachresort.com/wp-content/plugins/photo-gallery/css/bwg-fonts/fonts/bwg-fonts-svg/angle-right-sm.svg');
+  background-size: 60%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.dots {
+  display: flex;
+  position: absolute;
+  top: 90%;
+  left: 46%;
+  border-radius: 5px;
+}
+
+.slide-dot {
+  width: 15px;
+  height: 15px;
+  margin: 0 5px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  display: block;
+  cursor: pointer;
+}
+
+.slide-dot:hover {
+  background-color: #fff;
+}
